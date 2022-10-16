@@ -14,7 +14,6 @@ else
 		do
 			mul=`expr $var1 \*  $var2`
 			printf "%0.2d * %0.2d = %0.4d  " "$var1" "$var2" "$mul" 
-
 		done
 		echo "\n"
 	done
