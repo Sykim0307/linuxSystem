@@ -10,12 +10,14 @@ else
 
 	for var1  in $(seq 1 $1)
 	do
+		
 		for var2 in $(seq 1 $2)
 		do
 			mul=`expr $var1 \*  $var2`
 			printf "%0.2d * %0.2d = %0.4d  " "$var1" "$var2" "$mul" 
 		done
 		echo "\n"
+	
 	done
 fi
 
